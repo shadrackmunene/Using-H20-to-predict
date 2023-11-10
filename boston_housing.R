@@ -1,3 +1,4 @@
+This Script is meant to demonstrate the power of making predictions using H2O ensemble models and moving from conventional linear models
 # Libraries----
 library(tidyverse)
 library(parsnip)
@@ -9,7 +10,8 @@ library(tune)
 #Sampling data
 library(rsample)
 
-##1.0 Import data----
+##1.0 Import Boston Housing data----
+## Data is availabe in Kaggle
 train <- read_csv("00_data/train.csv")
 train
 test <- read_csv("00_data/test.csv")
